@@ -1,0 +1,20 @@
+{
+  "name": "webpack-numbers-demo-joban",
+  "version": "1.0.8",
+  "description": "",
+  "main": "./dist/webpack-commonjs2-numbers.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "webpack": "webpack -p"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/preset-env": "^7.10.2",
+    "babel-core": "^6.26.3",
+    "babel-loader": "^8.1.0",
+    "webpack": "^4.43.0",
+    "webpack-cli": "^3.3.11",
+    "webpack-node-externals": "^1.7.2"
+  }
+}
