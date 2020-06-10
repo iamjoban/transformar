@@ -1,8 +1,8 @@
 {
-  "name": "webpack-numbers-demo-joban",
-  "version": "1.0.8",
+  "name": "transformar",
+  "version": "1.0.0",
   "description": "",
-  "main": "./dist/webpack-commonjs2-numbers.js",
+  "main": "./dist/transformar-commonjs2.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "webpack": "webpack -p"

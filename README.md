@@ -1,7 +1,6 @@
-# Webpack Numbers
+# Transformar
 
-This module does nothing :P.
-It just convert number to word & word to number (from 0 to 5).
+This module does nothing :P. It transforms numbers to words & words to numbers (from 0 to 5).
 
 I am creating this module just for learning purpose.
 
@@ -14,20 +13,20 @@ This module can be used at `Node` as well as on `Browser`.
 ### Node
 
 ```
-const webpackNumbers = require('webpack-numbers-demo-joban');
-webpackNumbers.numToWord(1);       --> Output: One
+const transformar = require('transformar');
+transformar.numToWord(1);       --> Output: One
            or
-webpackNumbers.wordToNum("one");   --> Output: 1 
+transformar.wordToNum("one");   --> Output: 1 
 
 For ES6:
-import {numToWord, wordToNum} from 'webpack-numbers-demo-joban';
+import {numToWord, wordToNum} from 'transformar';
 ```
 
 ### Browser
 
 ```
-<script src"<src-path-to-module>"></script>
+<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/Jobanpreet/transformar/dist/transformar-wiindow.js"></script>
 
-window.webpackNumbers.wordToNum("one");  --> Output: 1
+window.transformar.wordToNum("one");  --> Output: 1
 ```
 

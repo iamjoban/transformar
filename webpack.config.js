@@ -9,8 +9,8 @@ module.exports = ["amd", "umd", "commonjs2", "window"].map(function (
     target: "node",
     output: {
       path: path.resolve(__dirname, "dist"),
-      filename: `webpack-${libraryTarget}-numbers.js`,
-      library: "webpackNumbers",
+      filename: `transformar-${libraryTarget}.js`,
+      library: "transformar",
       libraryTarget,
     },
     module:{
